@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    font-size: 18px;
+    background-color: f5f6f7;
+  }
+
+h1 {
+    max-width: 940px;
+    font-size: 2.5em;/* es relativo al tamaño de letra de su contenedor */
+    font-family: Lato, sans-serif;/* si el navegador no reconoce el primer tipo de letra si reconoce el otro */
+    font-weight:  700; /* letra gruesa */
+    line-height: 1.1;  /* esta altura de linea permite que haya mas separacion entre las letras en la linea */
+    margin: 40px 0;
+
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:  center; /*  permite que se alineen de forma centrada los item dentro */
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor-principal{
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
